@@ -9,7 +9,7 @@ const Header = () => {
                     <img
                         alt="logo"
                         src="https://www.seekpng.com/png/full/816-8163712_mountain-range-euclidean-vector-torres-del-paine-vector.png"
-                        className="w-44 cursor-pointer object-contain"
+                        className="w-44 cursor-pointer object-contain grayscale hover:grayscale-0"
                     />
                 </Link>
                 <div className="hidden md:inline-flex items-center space-x-5">
