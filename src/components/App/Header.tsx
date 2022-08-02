@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MainRoutes } from '../../core/routing';
+import { MainRoutes } from "../../core/routing";
 
 const Header = () => {
     return (

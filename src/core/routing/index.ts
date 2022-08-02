@@ -1,5 +1,5 @@
 const MainRoutes = {
-    Index: "/"
-}
+    Index: "/",
+};
 
-export { MainRoutes }
+export { MainRoutes };
