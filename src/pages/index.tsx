@@ -5,7 +5,6 @@ import Hero from "@/components/App/Hero";
 import { sanityClient, urlFor } from "../../sanity";
 import { Post } from "typings";
 import Link from "next/link";
-import Login from './Login';
 
 interface Props {
     posts: [Post];
