@@ -5,6 +5,7 @@ import Hero from "@/components/App/Hero";
 import { sanityClient, urlFor } from "../../sanity";
 import { Post } from "typings";
 import Link from "next/link";
+import Login from './Login';
 
 interface Props {
     posts: [Post];
@@ -12,7 +13,7 @@ interface Props {
 
 export default function Home({ posts }: Props) {
     return (
-        <div className="">
+        <>
             <Head>
                 <title>Coding Blog</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -50,7 +51,7 @@ export default function Home({ posts }: Props) {
                     </Link>
                 ))}
             </div>
-        </div>
+        </>
     );
 }
 
